@@ -640,15 +640,15 @@ const INCOMING=[
 ];
 
 const DISPLAY={
- "윈터": "Winter (มินจอง) ⭐️",
- "닝닝": "Ningning (หนิงหนิง) 🦋",
- "지젤": "Giselle (จีเซล) 🌙",
- "카리나": "Karina (จีมิน) 💙",
- "엄마": "แม่",
- "에스파 단톡방": "แก๊ง aespa (4) 🪐",
- "성수 동네 모임": "แก๊งเพื่อนซองซู",
- "류진": "รยูจิน",
- "예지": "เยจี",
- "안내 음성": "ระบบอัตโนมัติ",
- "모르는 사람": "ไม่ทราบชื่อ"
+ "윈터": "Winter (Minjeong) ⭐️",
+ "닝닝": "Ningning 🦋",
+ "지젤": "Giselle 🌙",
+ "카리나": "Karina (Jimin) 💙",
+ "엄마": "Mom",
+ "에스파 단톡방": "aespa Squad (4) 🪐",
+ "성수 동네 모임": "Seongsu Neighbors",
+ "류진": "Ryujin",
+ "예지": "Yeji",
+ "안내 음성": "Automated Voice",
+ "모르는 사람": "Unknown Caller"
 };

@@ -4,7 +4,8 @@
    (Karina's iPhone — Winter, Ningning, Giselle Edition)
    ============================================================ */
 const LANG=window.LANG||'th';
-const LOCALE={ko:'ko-KR',en:'en-US',ja:'ja-JP',zh:'zh-CN',vi:'vi-VN',th:'th-TH-u-ca-gregory',id:'id-ID'}[LANG]||'th-TH-u-ca-gregory';
+const UI_LANG=LANG==='th'?'en':LANG;
+const LOCALE={ko:'ko-KR',en:'en-US',ja:'ja-JP',zh:'zh-CN',vi:'vi-VN',th:'en-US',id:'id-ID'}[LANG]||'en-US';
 const L6=(ko,en,ja,zh,vi,th)=>({ko,en,ja,zh,vi,th});
 const UI={
  home:L6('홈','Home','ホーム','主屏幕','Màn hình chính','หน้าโฮม'),
@@ -234,7 +235,7 @@ acct:'Akun Apple, iCloud, Media & Pembelian',airplane:'Mode Pesawat',on:'Nyala',
 wonbinsIphone:'iPhone Karina',dailyAvg:'Rata-Rata Harian',hm:'{0} j {1} m',mOnly:'{0} m',upPct:'naik {0}% dari minggu lalu',mostUsed:'PALING SERING DIGUNAKAN',pickups:'PENGAMBILAN',firstPickup:'Pengambilan Pertama',avgPickups:'Rata-Rata Harian',pickN:'{0}',firstUsed:'Pertama Digunakan Setelah Diambil',notifSec:'NOTIFIKASI',perDay:'rata-rata {0} per hari',
 remind:'Ingatkan Saya',message2:'Pesan',slideAnswer:'geser untuk menjawab',decline:'Tolak',accept:'Terima',speaker:'speaker',mute:'bisukan',addCall:'tambah',endCall:'akhiri',calling:'memanggil…',liveCap:'Teks Langsung',callEnded:'Panggilan Berakhir',noAnswer:'Tidak Dijawab',missedCall:'Panggilan Tak Terjawab'};
 for(const k in UI_ID)if(UI[k])UI[k].id=UI_ID[k];
-function t(k,...a){const e=UI[k];let s=e?(e[LANG]??e.ko):k;a.forEach((v,i)=>{s=s.split('{'+i+'}').join(v)});return s}
+function t(k,...a){const e=UI[k];let s=e?(e[UI_LANG]??e[LANG]??e.ko):k;a.forEach((v,i)=>{s=s.split('{'+i+'}').join(v)});return s}
 const dn=n=>(typeof DISPLAY!=='undefined'&&DISPLAY[n])||n;
 
 /* ---------- 날짜/시간 (Intl) ---------- */
