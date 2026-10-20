@@ -305,11 +305,7 @@ const calls=[
 ];
 
 const songs=[
- ["Spark (Acoustic Cover)", "media/winter_01.mp3"],
- ["좋다 (So Good)", "media/winter_02.mp3"],
- ["Second (Guitar Ver.)", "media/winter_03.mp3"],
- ["우주를 건너 (Across the Universe)", "media/winter_across_the_universe.mp3"],
- ["I'm Unhappy (Studio Live)", "media/winter_04.mp3"]
+ ["Saddle Up", "media/saddle_up.mp3"]
 ];
 
 const liveReplies=[
