@@ -305,7 +305,8 @@ const calls=[
 ];
 
 const songs=[
- ["Saddle Up", "media/saddle_up.mp3"]
+ ["Saddle Up", "media/saddle_up.mp3"],
+ ["Blue", "media/blue.mp3"]
 ];
 
 const liveReplies=[
