@@ -137,8 +137,8 @@ document.addEventListener('pointerdown',()=>ac(),{once:true});
 
 /* ---------- Status Bar & Dynamic Island ---------- */
 function setStatus(dark){curDark=!!dark;$('#sb').classList.toggle('light',curDark);$('#hb').classList.toggle('light',curDark)}
-const ART=['media/winter_01.jpg','media/winter_02.jpg','media/winter_03.jpg','media/winter_04.jpg','media/winter_kakao_profile.jpg','media/winter_instagram_avatar.jpg','photos/winter_saved_01.jpg'];
-const ARTIST=['Winter','Winter','Winter','Winter','Winter','Winter','Winter'];
+const ART=['media/winter_01.jpg','media/winter_02.jpg','media/winter_03.jpg','media/winter_04.jpg','media/winter_kakao_profile.jpg','media/winter_instagram_avatar.jpg','photos/winter_saved_01.jpg','photos/winter_saved_02.jpg'];
+const ARTIST=['Winter','Winter','Winter','Winter','Winter','Winter','Winter','Winter'];
 function updateIsland(){typeof updateCrumb==='function'&&updateCrumb();const on=nowSong>=0&&!PLAYER.paused&&!['music','lock','pin'].includes(view)&&!OV.querySelector('.np,.call,.viewer');const il=$('#island');il.classList.toggle('act',on);if(on){const a=ART[nowSong];il.querySelector('.ia').style.backgroundImage=a?`url(${a})`:'linear-gradient(135deg,#ff9a9e,#fa2d48)'}}
 
 /* ============================================================
