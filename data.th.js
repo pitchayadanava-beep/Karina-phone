@@ -308,7 +308,8 @@ const songs=[
  ["Saddle Up", "media/saddle_up.mp3"],
  ["Blue", "media/blue.mp3"],
  ["Spark", "media/spark.mp3"],
- ["Speed of Summer", "media/speed_of_summer.mp3"]
+ ["Speed of Summer", "media/speed_of_summer.mp3"],
+ ["Officially Cool", "media/officially_cool.mp3"]
 ];
 
 const liveReplies=[
