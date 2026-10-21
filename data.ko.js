@@ -379,6 +379,12 @@ const mediaLabels={
 
 const photoSections=[
  [
+  "2026년 10월",
+  [
+   "oct_01.jpg", "oct_02.jpg", "oct_03.jpg", "oct_04.jpg", "oct_05.jpg", "oct_06.jpg", "oct_07.jpg", "oct_08.jpg", "oct_09.jpg", "oct_10.jpg", "oct_11.jpg", "oct_12.jpg", "oct_13.jpg", "oct_14.jpg", "oct_15.jpg", "oct_16.jpg", "oct_17.jpg", "oct_18.jpg"
+  ]
+ ],
+ [
   "2026년 9월",
   [
    "sep_01.jpg", "sep_02.jpg", "sep_03.jpg", "sep_04.jpg", "sep_05.jpg", "sep_06.jpg", "sep_07.jpg", "sep_08.jpg", "sep_09.jpg"
