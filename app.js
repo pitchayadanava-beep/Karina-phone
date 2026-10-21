@@ -428,10 +428,8 @@ VIEWS.maild=()=>{const e=emails[mailId],school=![2,4].includes(mailId);const bod
 
 /* --- Photos --- */
 const allPhotos=[];photoSections.forEach(s=>s[1].forEach(n=>allPhotos.push({src:'photos/'+n,sec:s[0],sub:s[2]})));
-const STORY_I=allPhotos.length;allPhotos.push({src:'photos/story_capture_final.png',thumb:'photos/story_last_thumbnail.jpg',sec:'2025년 11월 27일',sub:t('screenshot',fmtTime(21*60+41))});
 VIEWS.photos=()=>{let k=0;return{html:`<div class="nav"><span></span><div class="nb-title">${t('library')}</div><div class="nb-right">${G.search}<span>${t('select')}</span></div></div><div class="scroll" style="padding-bottom:120px"><h1 class="lt">${t('library')}</h1><div class="muted" style="margin:-6px 16px 10px;font-size:15px">${t('nPhotos',allPhotos.length)}</div>
- ${photoSections.map(s=>`<div class="ph-sec">${fmtLabel(s[0])}</div><div class="ph-grid">${s[1].map(n=>`<button data-pi="${k}" onclick="openViewer(${k++},this.firstElementChild)"><img src="photos/${n}" loading="lazy" alt=""></button>`).join('')}</div>`).join('')}
- <div class="ph-sec" style="margin-top:12px">${fmtYM(2025,11)}</div><div class="ph-grid"><button data-pi="${STORY_I}" onclick="openViewer(${STORY_I},this.firstElementChild)"><img src="photos/story_last_thumbnail.jpg" alt=""></button></div></div>
+ ${photoSections.map(s=>`<div class="ph-sec">${fmtLabel(s[0])}</div><div class="ph-grid">${s[1].map(n=>`<button data-pi="${k}" onclick="openViewer(${k++},this.firstElementChild)"><img src="photos/${n}" loading="lazy" alt=""></button>`).join('')}</div>`).join('')}</div>
  <div class="phtabs"><button>${t('years')}</button><button>${t('months')}</button><button class="on">${t('allPhotos')}</button></div>`,init:pg=>{const sc=pg.querySelector('.scroll');sc.scrollTop=0}}};
 
 /* Photo Viewer */

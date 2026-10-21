@@ -379,27 +379,10 @@ const mediaLabels={
 
 const photoSections=[
  [
-  "2026년 10월",
+  "2026년 4월",
   [
-   "daily_01.jpg", "daily_02.jpg", "daily_03.jpg", "daily_04.jpg",
-   "daily_05.jpg", "daily_06.jpg", "daily_07.jpg", "daily_08.jpg",
-   "daily_09.jpg", "daily_10.jpg", "daily_11.jpg", "daily_12.jpg"
+   "april_01.jpg", "april_02.jpg", "april_03.jpg", "april_04.jpg", "april_05.jpg", "april_06.jpg", "april_07.jpg", "april_08.jpg", "april_09.jpg"
   ]
- ],
- [
-  "2026년 9월",
-  [
-   "cafe_01.jpg", "cafe_02.jpg", "cafe_03.jpg", "cafe_04.jpg",
-   "friends_01.jpg", "friends_02.jpg", "friends_03.jpg", "friends_04.jpg"
-  ]
- ],
- [
-  "2026년 8월",
-  [
-   "winter_saved_01.jpg", "winter_saved_02.jpg", "winter_saved_03.jpg", "winter_saved_04.jpg",
-   "winter_saved_05.jpg", "winter_saved_06.jpg", "winter_saved_07.jpg", "winter_saved_08.jpg"
-  ],
-  "저장한 민정이 사진 💙"
  ]
 ];
 
