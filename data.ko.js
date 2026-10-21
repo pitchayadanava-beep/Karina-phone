@@ -310,7 +310,8 @@ const songs=[
  ["Spark", "media/spark.mp3"],
  ["Speed of Summer", "media/speed_of_summer.mp3"],
  ["Officially Cool", "media/officially_cool.mp3"],
- ["NOBODY", "media/nobody.mp3"]
+ ["NOBODY", "media/nobody.mp3"],
+ ["Pink + White", "media/pink_and_white.mp3"]
 ];
 
 const liveReplies=[
