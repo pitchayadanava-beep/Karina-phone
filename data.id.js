@@ -395,6 +395,12 @@ const photoSections=[
   [
    "april_01.jpg", "april_02.jpg", "april_03.jpg", "april_04.jpg", "april_05.jpg", "april_06.jpg", "april_07.jpg", "april_08.jpg", "april_09.jpg"
   ]
+ ],
+ [
+  "2026년 1월",
+  [
+   "jan_01.jpg", "jan_02.jpg", "jan_03.jpg", "jan_04.jpg", "jan_05.jpg", "jan_06.jpg", "jan_07.jpg", "jan_08.jpg", "jan_09.jpg", "jan_10.jpg", "jan_11.jpg", "jan_12.jpg", "jan_13.jpg", "jan_14.jpg", "jan_15.jpg", "jan_16.jpg"
+  ]
  ]
 ];
 
